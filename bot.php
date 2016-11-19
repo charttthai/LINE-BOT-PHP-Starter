@@ -2,6 +2,9 @@
 $proxy = 'http://fixie:Tjzz5bgCINIoGQU@velodrome.usefixie.com:80';
 $proxyauth = 'mr.chartthai@gmail.com:ScPun2339';
 
+curl_setopt($ch, CURLOPT_PROXY, $proxy);
+curl_setopt($ch, CURLOPT_PROXYUSERPWD, $proxyauth);
+
 $access_token = 'aKlwrw02mFypTfcLUyqFQNPb5I6u15sugGqGIxi7+YVRfyiyiUHi0gLciPKMrSyXtrSr0ZmnK1wkk2Qh/DCbJOkWxzFWWwzgRjqpjd2GtUFeZLEQGJhx0tFbYpOohdQtSXrdIRR6qq5HqKP1wyOZ8QdB04t89/1O/w1cDnyilFU=';
 
 // Get POST body content
